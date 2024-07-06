@@ -116,6 +116,10 @@ input[type="checkbox"]:checked{
     clip-path: circle(50% at 50% 50%);
 }
 
+span.span{
+    display: flex;
+    justify-content: center;
+}
 
 .clear{
     width: 100%;
