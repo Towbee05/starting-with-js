@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My TODO list </title>
+    <link rel="stylesheet" href="fontawesome-free-5.12.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="overall-container">
+        <div class="heading">
+            <h2>Simple To-Do List <span>  
+                <i class="fas fa-pen-square"></i>
+            </span></h2>
+        </div>
+        <section class="form">
+            <p class="alert"></p>
+            <form class="add-form">
+                <input type="text" name="todo-item" id="todo-item" class="todo-item" placeholder="Enter item">
+                <button class="btn"> Add item </button>
+            </form>
+        </section>
+        <section class="item-list">
+            <ul class="lists">
+            </ul>
+        </section>
+        <section class="clear">
+            <button class="clear-btn">Clear List</button>
+
+        </section>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
